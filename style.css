@@ -7,7 +7,7 @@ body{
     font-family: "Poppins", sans-serif;
     }
     header{
-        background-color:(#9FA1FF);
+        background-color:#9FA1FF;
         color: white;
         width: 100%;
         padding: 20px;
@@ -29,7 +29,7 @@ body{
     padding: 50px;
     text-align: center;
     width: 50%;
-    font: 30px;
+    font-size: 30px
 }
 .sociais{
     display: flex;
@@ -57,7 +57,7 @@ body{
     padding: 4px 8px;
 }
 .estudante{
-    background-image: background-color(#B5BAFF);
+    background-image: background-color#B5BAFF;
     padding: 24px 0;
 }
 
