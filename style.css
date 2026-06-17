@@ -94,7 +94,9 @@ body{
 }
 
 .patagoniadonorte{
+    width: 90%;
     background-color:#9FA1FF;
     font-size: 200%;
     font-family: "Arial";
+    border-radius: 30px;
 }
