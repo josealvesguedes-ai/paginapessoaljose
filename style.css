@@ -24,6 +24,10 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height:175px; 
+    width: 175px; 
+    object-fit: cover; 
+    object-position: 0px -50px;
 }
 .titulo_site{
     padding: 50px;
