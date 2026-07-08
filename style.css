@@ -56,6 +56,7 @@ body{
 .estudante-imagem{
     height: 180px;
     width:120px;
+    object-fit: cover;
 }
 .estudante-icone{
     width: 38px;
