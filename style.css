@@ -27,7 +27,7 @@ body{
     height:175px; 
     width: 175px; 
     object-fit: cover; 
-    object-position: 0px -50px;
+    object-position: 0px -50px; 
 }
 .titulo_site{
     padding: 50px;
@@ -105,4 +105,10 @@ body{
     font-size: 200%;
     font-family: "Arial";
     border-radius: 30px;
+}
+.viswo {
+font-family:"Poppins" sans-serif;
+font-size: 20px;
+color: #fdfcfc;
+margin-bottom: 15px;
 }
