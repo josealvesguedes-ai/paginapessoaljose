@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | José Vinicius Alves Guedes</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="jogo.css">
+</head>
+<body> 
+  
+<ul>
+  <li><a href="jogo.html">jogos</a></li>
+  <li><a href="contato.html">contato</a></li>
+  <li><a href="redesocial.html">sobre mim</a></li>
+  <li><a href="index.html">pagina inicial</a></li>
+</ul>
+
+
+<header class="cabecalho-itens">
+<img class="cabecalho-imagem" src="icpne.jpg" alt="Logo da
+Página">
+<h1 class="titulo_site">José Vinicius Alves Guedes</h1>
+<div class="sociais">
+<img class="sociais" src="whatsapp.png" alt="Logo do Whats da
+Escola">
+<img class="sociais" src="facebook.png" alt="Facebook da
+Escola">
+<img class="sociais" src="instagram.png" alt="instagram da
+Escola">
+</div>
+</header>
+
+</body>
+</html>
+
+  <div id="game-container">
+    <div id="hud">
+      <div id="p1-hud" class="player-hud">
+        <div class="p-name" id="p1-name-display">PLAYER 1</div>
+        <div class="bar-outer hp-outer"><div id="p1-hp" class="bar-fill hp-fill"></div></div>
+        <div class="bar-outer guard-outer"><div id="p1-guard" class="bar-fill guard-fill"></div></div>
+        <div class="bar-outer super-outer"><div id="p1-super" class="bar-fill super-fill"></div></div>
+        <div class="wins-display" id="p1-wins">VITÓRIAS: <span>0</span></div>
+      </div>
+
+      <div id="center-hud">
+        <div id="timer">60</div>
+        <button id="fullscreen-btn" onclick="toggleFullscreen()">TELA CHEIA</button>
+      </div>
+
+      <div id="p2-hud" class="player-hud">
+        <div class="p-name" id="p2-name-display">PLAYER 2</div>
+        <div class="bar-outer hp-outer"><div id="p2-hp" class="bar-fill hp-fill"></div></div>
+        <div class="bar-outer guard-outer"><div id="p2-guard" class="bar-fill guard-fill"></div></div>
+        <div class="bar-outer super-outer"><div id="p2-super" class="bar-fill super-fill"></div></div>
+        <div class="wins-display" id="p2-wins">VITÓRIAS: <span>0</span></div>
+      </div>
+    </div>
+
+    <canvas id="gameCanvas" width="1024" height="576"></canvas>
+
+    <div id="overlay-screen" class="overlay">
+      <h1 id="screen-title">MANO A MANO</h1>
+      <p id="screen-subtitle">SELECIONE OS LUTADORES</p>
+      
+      <div id="char-select">
+        <div class="select-box" id="p1-select">
+          <h3>P1 (WASD)</h3>
+          <div class="char-options" id="p1-options"></div>
+          <div class="controls-legend">
+            <b>Mover:</b> A / D | <b>Pulo:</b> W | <b>Defesa/Agachar:</b> S<br>
+            <b>Soco Rápido:</b> F | <b>Ataque Pesado / Especial:</b> G | <b>Chute:</b> H
+          </div>
+        </div>
+        
+        <div class="select-box" id="p2-select">
+          <h3>P2 (SETINHAS)</h3>
+          <div class="char-options" id="p2-options"></div>
+          <div class="controls-legend">
+            <b>Mover:</b> ◄ / ► | <b>Pulo:</b> ▲ | <b>Defesa/Agachar:</b> ▼<br>
+            <b>Soco Rápido:</b> K | <b>Ataque Pesado / Especial:</b> L | <b>Chute:</b> Ç / M
+          </div>
+        </div>
+      </div>
+
+      <button id="start-btn">INICIAR O DUELO</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
