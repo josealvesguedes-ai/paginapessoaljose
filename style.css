@@ -134,68 +134,17 @@ ul li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 ul li a:hover {
   background-color: #2d1e58;
 }
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  user-select: none;
-  font-family: 'Impact', 'Arial Black', sans-serif;
-}
-
-body {
-  background-color: #080810;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
-   font-family: "Poppins", sans-serif;
-    }
-    header{
-        background-color:#9FA1FF;
-        color: white;
-        width: 100%;
-        padding: 20px;
-}
-.cabecalho-itens{
-    max-width: 1980px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.cabecalho-imagem{
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height:175px; 
-    width: 175px; 
-    object-fit: cover; 
-    object-position: 0px -50px; 
-}
-.titulo_site{
-    padding: 50px;
-    text-align: center;
-    width: 50%;
-    font-size: 30px
-}
-.sociais{
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    padding-right: 30px;
-}
 
 #game-container {
   position: relative;
+  justify-self: center;
+  align-items: center;
   width: 1024px;
   height: 576px;
   box-shadow: 0 0 30px rgba(0, 240, 255, 0.3), 0 0 60px rgba(255, 0, 85, 0.2);
